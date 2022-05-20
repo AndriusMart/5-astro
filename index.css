@@ -20,8 +20,7 @@ body{
       align-content: center;  
   }
   .header img{
-      height: auto;
-
+      width: auto;
   }
   .header a {
       text-decoration: none;
@@ -29,13 +28,14 @@ body{
       font-weight: bold;
       font-size: 10px;
   }
-  .header a.sing{
-    background-color: aqua;
-    border-radius: 20px;
+  .header nav.log {
+    word-spacing: 3px; 
   }
-  .content {
-
-
+  .header a.sing{
+    padding: 2px 20px;
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 5px;
   }
   .content{
     align-items: center;
