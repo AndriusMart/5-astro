@@ -14,8 +14,7 @@ body{
   .header{
       display: flex;
       justify-content: space-between;
-      flex: auto;
-      word-spacing: 50px; 
+      flex: auto; 
       align-items: baseline;
       align-content: center;  
   }
@@ -24,12 +23,13 @@ body{
   }
   .header a {
       text-decoration: none;
-      color: purple;
+      color: #0D0363;
       font-weight: bold;
       font-size: 10px;
+      margin-left: 1px;
   }
   .header nav.base-menu{
-    word-spacing: 30px;      
+    word-spacing: 10px;      
   }
   .header nav.log {
     margin-left: 40px;
@@ -38,8 +38,20 @@ body{
   .header a.sing{
     padding: 2px 20px;
     text-decoration: none;
-    background-color: aqua;
+    background-color: #41ECFE;
     border-radius: 5px;
+  }
+  ::placeholder {
+    color: #0D0363;
+    opacity: 0.7; 
+  }
+  .header input{
+    margin-right:  10px;
+    width: 10%;
+    height: 5px;
+    background-color: gainsboro;
+    border-radius: 5px;
+
   }
   .content{
     align-items: center;
@@ -51,19 +63,19 @@ body{
   }
   .content h1 {
       font-size: 31px;
-      color: purple;
+      color: #0D0363;
       margin-bottom: 1px;
   }
   .content p{
     font-size: 15px;
-    color: purple;
+    color: #0D0363;
     margin-top: 1px;
   }
   .content a{
       padding: 2px 20px;
       text-decoration: none;
-      color: orange;
-      background-color: bisque;
+      color: #D98B81;
+      background-color: #FCB4A8;
       border-radius: 2px;
   }
   .content img{
