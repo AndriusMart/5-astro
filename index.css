@@ -28,7 +28,11 @@ body{
       font-weight: bold;
       font-size: 10px;
   }
+  .header nav.base-menu{
+    word-spacing: 30px;      
+  }
   .header nav.log {
+    margin-left: 40px;
     word-spacing: 3px; 
   }
   .header a.sing{
