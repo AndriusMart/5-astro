@@ -5,9 +5,10 @@ body {
     box-sizing: border-box;
   }
 body{
+    padding: 90px;
     height: 100vh;
-    background-color: white;
     width: 50%;
+    background-color: white;
     margin: auto;
   }
   .header{
@@ -31,5 +32,39 @@ body{
   .header a.sing{
     background-color: aqua;
     border-radius: 20px;
+  }
+  .content {
+
+
+  }
+  .content{
+    align-items: center;
+    align-content: center;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+  }
+  .content h1 {
+      font-size: 31px;
+      color: purple;
+      margin-bottom: 1px;
+  }
+  .content p{
+    font-size: 15px;
+    color: purple;
+    margin-top: 1px;
+  }
+  .content a{
+      padding: 2px 20px;
+      text-decoration: none;
+      color: orange;
+      background-color: bisque;
+      border-radius: 2px;
+  }
+  .content img{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
   }
 
