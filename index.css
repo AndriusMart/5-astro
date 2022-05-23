@@ -16,7 +16,8 @@ body{
       justify-content: space-between;
       flex: auto; 
       align-items: baseline;
-      align-content: center;  
+      align-content: center; 
+      font-size: 15px; 
   }
   .header img{
       width: 150%;
@@ -25,7 +26,6 @@ body{
       text-decoration: none;
       color: #0D0363;
       font-weight: bold;
-      font-size: 10px;
       margin-left: 1px;
   }
   .header nav.base-menu{
